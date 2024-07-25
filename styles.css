@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.body {
+
+}
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.post_header {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-name {
+    padding-left: 5px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.post_image img{
+    width: 100%;
+    height: auto;
+  }
+
+
+.icons {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon_right {
+    margin-left: auto;
+}
+
+p + p {
+    margin-top: 10px; /* Ajusta este valor según la distancia deseada */
+  }
+.description {
+    padding-left: 10px;
+}
